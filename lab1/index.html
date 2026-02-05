@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Задание — сетевые и HTTP-инструменты</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    :root {
+      --bg: #f5f7fa;
+      --card: #ffffff;
+      --border: #e5e7eb;
+      --text: #1f2937;
+      --muted: #6b7280;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    header {
+      padding: 32px 16px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    header p {
+      margin-top: 8px;
+      color: var(--muted);
+    }
+
+    main {
+      max-width: 1400px; 
+      margin: 0 auto;
+      padding: 16px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(560px, 1fr)); 
+      gap: 24px;
+    }
+
+    figure {
+      margin: 0;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    }
+
+    figure img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    footer {
+      margin-top: 48px;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Отчёт по практическому заданию</h1>
+    <p>SSH · DNS · WHOIS · HTTP · SFTP</p>
+  </header>
+
+  <main>
+    <section class="grid">
+
+      <figure>
+        <img src="images/1.jpg" alt="Screenshot 1">
+      </figure>
+
+      <figure>
+        <img src="images/2.jpg" alt="Screenshot 2">
+      </figure>
+
+      <figure>
+        <img src="images/3.jpg" alt="Screenshot 3">
+      </figure>
+
+      <figure>
+        <img src="images/4.jpg" alt="Screenshot 4">
+      </figure>
+
+      <figure>
+        <img src="images/5.jpg" alt="Screenshot 5">
+      </figure>
+
+      <figure>
+        <img src="images/6.jpg" alt="Screenshot 6">
+      </figure>
+
+    </section>
+  </main>
+
+  <footer>
+    <div>Учебный проект · kubsu-dev.ru</div>
+  </footer>
+
+</body>
+</html>
